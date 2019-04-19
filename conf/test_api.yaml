@@ -1,0 +1,3 @@
+host: http://test.shop.buckydrop.com
+login_url: /api/buckydrop/user/account/login
+search_url: /api/buckydrop/user/customer/employee/list
