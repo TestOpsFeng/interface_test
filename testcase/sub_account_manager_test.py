@@ -1,5 +1,5 @@
 from testcase.base_setup import BaseSetup
-from set.sub_account_manager import *
+from interfaces.sub_account_manager import *
 instance = sub_account_manager()
 
 class sub_account_manager_test(BaseSetup):

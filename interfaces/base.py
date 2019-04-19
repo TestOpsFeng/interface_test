@@ -1,4 +1,4 @@
-from set.login import *
+from interfaces.login import *
 from utils.decorator import log
 
 
