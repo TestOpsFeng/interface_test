@@ -1,12 +1,13 @@
 import os
 import logging.config
 import yaml
-
+from utils.HTMLTestRunner_V import stdout_redirector
 
 log_path = os.path.split(os.path.realpath(__file__))[0] + '/../conf/logger_config.yaml'
 
-def setup_logging(default_path = log_path,default_level = logging.INFO):
-    print(log_path)
+
+def setup_logging(default_path = log_path,default_level = logging.DEBUG):
+    # print(log_path)
     path = default_path
     if os.path.exists(path):
         with open(path, "r") as f:
@@ -17,5 +18,5 @@ def setup_logging(default_path = log_path,default_level = logging.INFO):
 
 
 logger = logging.getLogger('info')
-logger.error('Faild to get result', exc_info=True)
+# logger.error('Faild to get result', exc_info=True)
 setup_logging()

@@ -1,0 +1,12 @@
+# 可配置的域名
+host: https://www.buckydrop.com
+username: carson@prod.com
+password: Aa123456
+
+# test环境
+#host: https://test.buckydrop.com
+#username: carson2@qq.com
+#password: Aa123456
+
+# 设置代理
+proxy: 127.0.0.1:11111
